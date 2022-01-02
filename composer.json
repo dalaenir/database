@@ -1,0 +1,26 @@
+{
+	"name": "dalaenir/database",
+	"description": "Easy-to-use SQL queries library",
+	"type": "library",
+	"keywords": ["php", "pdo"],
+	"license": "GPL-3.0-only",
+	"authors": [
+		{
+			"name": "Dalaenir",
+			"role": "developer",
+			"email": "dalaenir@gmail.com"
+		}
+	],
+	"support": {
+		"source": "https://github.com/dalaenir/database",
+		"chat": "https://discord.gg/truvjamc62"
+	},
+	"autoload": {
+		"psr-4": {
+			"Dalaenir\\Utils\\": "src/"
+		}
+	},
+	"require": {
+		"php": ">= 7.1"
+	}
+}
